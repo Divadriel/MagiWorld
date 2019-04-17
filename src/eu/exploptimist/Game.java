@@ -1,5 +1,7 @@
 package eu.exploptimist;
 
+import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Game {
@@ -18,23 +20,122 @@ public class Game {
     }
 
     /**
+     * Checks whether class input is correct or not.
+     * @param characterClass class input
+     * @return               characterClass if input is correct, else -1.
+     */
+    public int checkClass(int characterClass){
+        if(characterClass != 1 && characterClass != 2 && characterClass != 3){
+            return -1;
+        }
+        return characterClass;
+    }
+
+    /**
+     * Checks whether level input is correct or not.
+     * @param level level input
+     * @return      level if input is correct, else -1.
+     */
+    public int checkLevel(int level){
+        if(level < 1 || level > 100){
+            return -1;
+        }
+        return level;
+    }
+
+    /**
+     * Checks whether perk input is correct or not.
+     * @param perk  perk input
+     * @return      perk if input is correct, else -1.
+     */
+    public int checkPerk(int perk){
+        if(perk < 0 || perk > 100){
+            return -1;
+        }
+        return perk;
+    }
+
+    /**
+     * Checks whether integrity constraint on sum of perks is correct or not.
+     * @param level         level input
+     * @param strength      strength input
+     * @param dexterity     dexterity input
+     * @param intelligence  intelligence input
+     * @return              true is constraint is correct, else false.
+     */
+    public boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
+        if (strength + dexterity + intelligence != level){
+            System.out.println("La somme des attributs doit être égale au niveau du personnage !");
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * do / while loop to select character class.
+     * @return  chosen character class.
+     */
+    public int selectClass(){
+        int characterClass;
+        do {
+            System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
+            characterClass = sc.nextInt();
+        } while(checkClass(characterClass) == -1);
+        return characterClass;
+    }
+
+    /**
+     * do / while loop to select level.
+     * @return  chosen level.
+     */
+    public int selectLevel(){
+        int level;
+        do {
+            System.out.println("Niveau du personnage ?");
+            level = sc.nextInt();
+        } while(checkLevel(level) == -1);
+        return level;
+    }
+
+    /**
+     * do / while loop to select perks.
+     * @param level level input.
+     * @return      ArrayList of chosen perks.
+     */
+    public ArrayList<Integer> selectPerks(int level){
+        int strength, dexterity, intelligence;
+        ArrayList<Integer> perks = new ArrayList<Integer>();
+        do {
+            System.out.println("Force du personnage ?");
+            strength = sc.nextInt();
+            System.out.println("Agilité du personnage ?");
+            dexterity = sc.nextInt();
+            System.out.println("Intelligence du personnage ?");
+            intelligence = sc.nextInt();
+        } while((checkPerk(strength) == -1 || checkPerk(dexterity) == -1 || checkPerk(intelligence) == -1)
+                || !checkAllPerks(level, strength, dexterity, intelligence));
+        perks.add(strength);
+        perks.add(dexterity);
+        perks.add(intelligence);
+        return perks;
+    }
+
+    /**
      * Creates a character, following player input.
      * @param playerNb  The player number, used only for launchGame() method.
      * @return          The created character.
      */
     public Character createCharacter(int playerNb){
         Character player;
+        int characterClass, level, strength, dexterity, intelligence;
         System.out.println("Création du personnage du Joueur " + playerNb);
-        System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
-        int characterClass = sc.nextInt();
-        System.out.println("Niveau du personnage ?");
-        int level = sc.nextInt();
-        System.out.println("Force du personnage ?");
-        int strength = sc.nextInt();
-        System.out.println("Agilité du personnage ?");
-        int dexterity = sc.nextInt();
-        System.out.println("Intelligence du personnage ?");
-        int intelligence = sc.nextInt();
+
+        characterClass = selectClass();
+        level = selectLevel();
+        ArrayList<Integer> perks = selectPerks(level);
+        strength = perks.get(0);
+        dexterity = perks.get(1);
+        intelligence = perks.get(2);
 
         /**
          * Switch on characterClass variable, to create the corresponding class. player is a Character object,
