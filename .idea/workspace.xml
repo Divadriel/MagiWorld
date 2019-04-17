@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d51567-7a3f-4a39-94cd-b4e46a9d6126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eu/exploptimist/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Rogue.java" afterDir="false" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -34,11 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+            <state relative-caret-position="1734">
+              <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
               <folding>
-                <element signature="e#2752#2753#0" expanded="true" />
-                <element signature="e#2788#2789#0" expanded="true" />
+                <element signature="e#3960#3961#0" expanded="true" />
+                <element signature="e#4029#4030#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,21 +47,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="1717">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
               <folding>
+                <element signature="e#1800#1801#0" expanded="true" />
                 <element signature="e#1828#1829#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
                 <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1919#1920#0" expanded="true" />
                 <element signature="e#1950#1951#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
                 <element signature="e#2015#2016#0" expanded="true" />
+                <element signature="e#2051#2052#0" expanded="true" />
                 <element signature="e#2086#2087#0" expanded="true" />
-                <element signature="e#1992#1993#0" expanded="true" />
-                <element signature="e#2013#2014#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#2257#2258#0" expanded="true" />
                 <element signature="e#2293#2294#0" expanded="true" />
-                <element signature="e#2378#2379#0" expanded="true" />
+                <element signature="e#2425#2426#0" expanded="true" />
                 <element signature="e#2467#2468#0" expanded="true" />
-                <element signature="e#2568#2569#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+            <state relative-caret-position="170">
+              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -79,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="23" column="109" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -88,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Mage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="123" selection-start-line="23" selection-start-column="123" selection-end-line="23" selection-end-column="123" />
+            <state relative-caret-position="369">
+              <caret line="23" column="109" selection-start-line="23" selection-start-column="109" selection-end-line="23" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -109,12 +111,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/eu/exploptimist/Main.java" />
-        <option value="$PROJECT_DIR$/src/eu/exploptimist/Character.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/Rogue.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/Mage.java" />
-        <option value="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/Main.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/Game.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/Character.java" />
       </list>
     </option>
   </component>
@@ -130,6 +132,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,8 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,15 +208,22 @@
       <option name="project" value="LOCAL" />
       <updated>1555087645896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added attacks for all character classes + all gameplay (perfect mode)">
+      <created>1555435004808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555435004808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.147651" />
-      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" visible="true" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496139" visible="true" weight="0.14966443" />
+      <window_info id="Structure" order="1" sideWeight="0.503861" side_tool="true" visible="true" weight="0.14966443" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -222,7 +231,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26628897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,65 +252,68 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added abstract class Character + 3 children (Warrior, Rogue and Mage), all empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="added abstract class Character + 3 children (Warrior, Rogue and Mage), all empty" />
+    <MESSAGE value="added attacks for all character classes + all gameplay (perfect mode)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added attacks for all character classes + all gameplay (perfect mode)" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="109" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="123" selection-start-line="23" selection-start-column="123" selection-end-line="23" selection-end-column="123" />
+        <state relative-caret-position="369">
+          <caret line="23" column="109" selection-start-line="23" selection-start-column="109" selection-end-line="23" selection-end-column="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="1717">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
           <folding>
+            <element signature="e#1800#1801#0" expanded="true" />
             <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
             <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
             <element signature="e#2015#2016#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
             <element signature="e#2086#2087#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2257#2258#0" expanded="true" />
             <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2378#2379#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
             <element signature="e#2467#2468#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="101" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        <state relative-caret-position="1734">
+          <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
           <folding>
-            <element signature="e#2752#2753#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
+            <element signature="e#3960#3961#0" expanded="true" />
+            <element signature="e#4029#4030#0" expanded="true" />
           </folding>
         </state>
       </provider>

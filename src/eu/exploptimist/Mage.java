@@ -5,6 +5,10 @@ public class Mage extends Character {
         super(level, strength, dexterity, intelligence, name);
     }
 
+    /**
+     * Mage's basic attack, called "Boule de Feu", and causing player's intelligence level of damage.
+     * @param target    The other player.
+     */
     @Override
     public void basicAttack(Character target) {
         target.setHealth(target.getHealth() - this.getIntelligence());
@@ -15,6 +19,10 @@ public class Mage extends Character {
         }
     }
 
+    /**
+     * Mage's special attack, called "Soin", healing the player by his twice intelligence level, with a maximum of his base health.
+     * @param target    The other player, even if not used here (needed for correctly overriding the method).
+     */
     @Override
     public void specialAttack(Character target) {
         int healthGain = this.getIntelligence() * 2;

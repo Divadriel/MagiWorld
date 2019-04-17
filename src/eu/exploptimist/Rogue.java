@@ -5,6 +5,10 @@ public class Rogue extends Character {
         super(level, strength, dexterity, intelligence, name);
     }
 
+    /**
+     * Rogue's basic attack, called "Tir à l'Arc" and causing player's dexterity level of damage.
+     * @param target
+     */
     @Override
     public void basicAttack(Character target) {
         target.setHealth(target.getHealth() - this.getDexterity());
@@ -15,6 +19,10 @@ public class Rogue extends Character {
         }
     }
 
+    /**
+     * Rogue's special attack, called "Concentration", which adds half player level to dexterity perk.
+     * @param target    The other player, even if not used here (needed for correctly overriding the method).
+     */
     @Override
     public void specialAttack(Character target) {
         this.setDexterity(this.getDexterity() + (this.getLevel() / 2));

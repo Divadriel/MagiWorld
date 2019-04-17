@@ -34,6 +34,10 @@ public abstract class Character {
      */
     public abstract void specialAttack(Character target);
 
+    /**
+     * Return whether player is dead or not, depending on remaining health.
+     * @return Answer on living state.
+     */
     public boolean isDead(){
         if(this.getHealth() <= 0){
             return true;
@@ -41,6 +45,11 @@ public abstract class Character {
         return false;
     }
 
+    /**
+     * General method to launch an attack.
+     * @param action    The type of attack, chosen by the player.
+     * @param target    Target of the attack (the other player).
+     */
     public void attack(int action, Character target){
         if(action == 2){
             this.specialAttack(target);
@@ -86,23 +95,11 @@ public abstract class Character {
         return name;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
     public void setHealth(int health) {
         this.health = health;
     }
 
-    public void setStrength(int strength) {
-        this.strength = strength;
-    }
-
     public void setDexterity(int dexterity) {
         this.dexterity = dexterity;
-    }
-
-    public void setIntelligence(int intelligence) {
-        this.intelligence = intelligence;
     }
 }
