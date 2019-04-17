@@ -39,10 +39,7 @@ public abstract class Character {
      * @return Answer on living state.
      */
     public boolean isDead(){
-        if(this.getHealth() <= 0){
-            return true;
-        }
-        return false;
+        return (this.getHealth() <= 0);
     }
 
     /**

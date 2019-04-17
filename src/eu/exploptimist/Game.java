@@ -1,21 +1,18 @@
 package eu.exploptimist;
 
 import java.util.ArrayList;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Game {
 
     private Scanner sc = new Scanner(System.in);
-    private Character player1;
-    private Character player2;
 
     /**
      * Launches the game. It creates 2 players and make them fight until death.
      */
     public void launchGame(){
-        player1 = createCharacter(1);
-        player2 = createCharacter(2);
+        Character player1 = createCharacter(1);
+        Character player2 = createCharacter(2);
         this.fight(player1, player2);
     }
 
@@ -24,7 +21,7 @@ public class Game {
      * @param characterClass class input
      * @return               characterClass if input is correct, else -1.
      */
-    public int checkClass(int characterClass){
+    private int checkClass(int characterClass){
         if(characterClass != 1 && characterClass != 2 && characterClass != 3){
             return -1;
         }
@@ -36,7 +33,7 @@ public class Game {
      * @param level level input
      * @return      level if input is correct, else -1.
      */
-    public int checkLevel(int level){
+    private int checkLevel(int level){
         if(level < 1 || level > 100){
             return -1;
         }
@@ -48,7 +45,7 @@ public class Game {
      * @param perk  perk input
      * @return      perk if input is correct, else -1.
      */
-    public int checkPerk(int perk){
+    private int checkPerk(int perk){
         if(perk < 0 || perk > 100){
             return -1;
         }
@@ -63,7 +60,7 @@ public class Game {
      * @param intelligence  intelligence input
      * @return              true is constraint is correct, else false.
      */
-    public boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
+    private boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
         if (strength + dexterity + intelligence != level){
             System.out.println("La somme des attributs doit être égale au niveau du personnage !");
             return false;
@@ -75,7 +72,7 @@ public class Game {
      * do / while loop to select character class.
      * @return  chosen character class.
      */
-    public int selectClass(){
+    private int selectClass(){
         int characterClass;
         do {
             System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
@@ -88,7 +85,7 @@ public class Game {
      * do / while loop to select level.
      * @return  chosen level.
      */
-    public int selectLevel(){
+    private int selectLevel(){
         int level;
         do {
             System.out.println("Niveau du personnage ?");
@@ -102,9 +99,9 @@ public class Game {
      * @param level level input.
      * @return      ArrayList of chosen perks.
      */
-    public ArrayList<Integer> selectPerks(int level){
+    private ArrayList<Integer> selectPerks(int level){
         int strength, dexterity, intelligence;
-        ArrayList<Integer> perks = new ArrayList<Integer>();
+        ArrayList<Integer> perks = new ArrayList<>();
         do {
             System.out.println("Force du personnage ?");
             strength = sc.nextInt();
@@ -125,7 +122,7 @@ public class Game {
      * @param playerNb  The player number, used only for launchGame() method.
      * @return          The created character.
      */
-    public Character createCharacter(int playerNb){
+    private Character createCharacter(int playerNb){
         Character player;
         int characterClass, level, strength, dexterity, intelligence;
         System.out.println("Création du personnage du Joueur " + playerNb);
@@ -137,10 +134,10 @@ public class Game {
         dexterity = perks.get(1);
         intelligence = perks.get(2);
 
-        /**
-         * Switch on characterClass variable, to create the corresponding class. player is a Character object,
-         * as we don't need specificity from other classes after character creation.
-         * Default case exists to prevent error, Warrior class chosen arbitrarily.
+        /*
+          Switch on characterClass variable, to create the corresponding class. player is a Character object,
+          as we don't need specificity from other classes after character creation.
+          Default case exists to prevent error, Warrior class chosen arbitrarily.
          */
         switch (characterClass){
             case 1:
@@ -164,10 +161,10 @@ public class Game {
 
     /**
      * Main method: it makes players fight together until one of them dies (in a while loop).
-     * @param player1
-     * @param player2
+     * @param player1   player 1
+     * @param player2   player 2
      */
-    public void fight(Character player1, Character player2){
+    private void fight(Character player1, Character player2){
         while(player1.getHealth() > 0 || player2.getHealth() > 0){
             // player 1 starts
             play(player1, 1, player2);
