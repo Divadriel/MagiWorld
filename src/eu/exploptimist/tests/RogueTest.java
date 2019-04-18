@@ -1,5 +1,6 @@
-package eu.exploptimist;
+package eu.exploptimist.tests;
 
+import eu.exploptimist.Rogue;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
