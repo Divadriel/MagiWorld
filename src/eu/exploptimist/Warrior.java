@@ -31,7 +31,7 @@ public class Warrior extends Character {
         target.setHealth(target.getHealth() - (2*this.getStrength()));
         this.setHealth(this.getHealth() - (this.getStrength() / 2));
         System.out.println(this.getName() + " utilise Coup de Rage et inflige " + 2*this.getStrength() + " dommages.");
-        System.out.println(target.getName() + " perd " + this.getStrength() + " points de vie.");
+        System.out.println(target.getName() + " perd " + 2*this.getStrength() + " points de vie.");
         if(target.isDead()){
             System.out.println(target.getName() + " est mort");
         }

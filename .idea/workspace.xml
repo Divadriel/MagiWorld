@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d51567-7a3f-4a39-94cd-b4e46a9d6126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eu/exploptimist/tests/CharacterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagiWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MagiWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eu/exploptimist/RogueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eu/exploptimist/tests/WarriorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="67" column="57" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="67" selection-end-column="57" />
+            <state relative-caret-position="340">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="e#1180#1181#0" expanded="true" />
                 <element signature="e#1226#1227#0" expanded="true" />
@@ -57,11 +54,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/tests/CharacterTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+            <state relative-caret-position="204">
+              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/tests/WarriorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,19 +76,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
+        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+            <state relative-caret-position="147">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/RogueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="504">
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/Rogue.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/Mage.java" />
         <option value="$PROJECT_DIR$/test/GameTest.java" />
@@ -122,6 +130,10 @@
         <option value="$PROJECT_DIR$/test/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/eu/exploptimist/tests/CharacterTest.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/WarriorTest.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/tests/WarriorTest.java" />
+        <option value="$PROJECT_DIR$/src/eu/exploptimist/RogueTest.java" />
       </list>
     </option>
   </component>
@@ -155,6 +167,13 @@
               <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exploptimist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MagiWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MagiWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exploptimist" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RogueTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="eu.exploptimist.Main" />
       <module name="MagiWorld" />
@@ -207,8 +226,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CharacterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.exploptimist.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.exploptimist.tests" />
+      <option name="MAIN_CLASS_NAME" value="eu.exploptimist.tests.CharacterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.exploptimist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.exploptimist" />
+      <option name="MAIN_CLASS_NAME" value="eu.exploptimist.RogueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.exploptimist.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.exploptimist.tests" />
+      <option name="MAIN_CLASS_NAME" value="eu.exploptimist.tests.WarriorTest" />
+      <option name="METHOD_NAME" value="Given_targetDead_When_basicAttack_Then_displayDeath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarriorTest.Given_targetDead_When_specialAttack_Then_displayDeath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MagiWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.exploptimist.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eu.exploptimist.tests" />
+      <option name="MAIN_CLASS_NAME" value="eu.exploptimist.tests.WarriorTest" />
+      <option name="METHOD_NAME" value="Given_targetDead_When_specialAttack_Then_displayDeath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RogueTest" />
+        <item itemvalue="JUnit.WarriorTest.Given_targetDead_When_specialAttack_Then_displayDeath" />
+        <item itemvalue="JUnit.WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" />
+        <item itemvalue="JUnit.CharacterTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -259,15 +344,42 @@
       <option name="project" value="LOCAL" />
       <updated>1555521459796</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added tests for Character class">
+      <created>1555606862662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555606862662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CharacterTest - 2019.04.18 at 19h 12m 05s.xml">
+      <configuration name="CharacterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_Given_targetDead_When_basicAttack_Then_displayDeath - 2019.04.18 at 19h 12m 21s.xml">
+      <configuration name="WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_Given_targetDead_When_basicAttack_Then_displayDeath - 2019.04.18 at 19h 12m 53s.xml">
+      <configuration name="WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_Given_targetDead_When_basicAttack_Then_displayDeath - 2019.04.18 at 19h 13m 11s.xml">
+      <configuration name="WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_Given_targetDead_When_basicAttack_Then_displayDeath - 2019.04.18 at 19h 13m 31s.xml">
+      <configuration name="WarriorTest.Given_targetDead_When_basicAttack_Then_displayDeath" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_Given_targetDead_When_specialAttack_Then_displayDeath - 2019.04.18 at 19h 17m 25s.xml">
+      <configuration name="WarriorTest.Given_targetDead_When_specialAttack_Then_displayDeath" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7209632" visible="true" weight="0.15167785" />
-      <window_info id="Structure" order="1" sideWeight="0.27903682" side_tool="true" visible="true" weight="0.15167785" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7200772" visible="true" weight="0.15167785" />
+      <window_info id="Structure" order="1" sideWeight="0.27992278" side_tool="true" visible="true" weight="0.15167785" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -275,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26628897" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26628897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,16 +452,10 @@
     <MESSAGE value="added javadoc for most methods + code comments when needed + removed unused setters in Character class" />
     <MESSAGE value="simplified createCharacter() method: divided code in several smaller methods, to add some checks on user input" />
     <MESSAGE value="simplified launchGame() method by creating 2 local Character variables instead of attr&#10;+ resolved several warnings related to method access (public to private)" />
-    <option name="LAST_COMMIT_MESSAGE" value="simplified launchGame() method by creating 2 local Character variables instead of attr&#10;+ resolved several warnings related to method access (public to private)" />
+    <MESSAGE value="added tests for Character class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for Character class" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Mage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -384,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632">
@@ -405,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="67" column="57" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="67" selection-end-column="57" />
+        <state relative-caret-position="340">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="e#1180#1181#0" expanded="true" />
             <element signature="e#1226#1227#0" expanded="true" />
@@ -416,8 +515,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/tests/CharacterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        <state relative-caret-position="164">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/tests/WarriorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/Rogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eu/exploptimist/RogueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
