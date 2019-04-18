@@ -58,7 +58,7 @@ public class Game {
      * @param strength      strength input
      * @param dexterity     dexterity input
      * @param intelligence  intelligence input
-     * @return              true is constraint is correct, else false.
+     * @return              true if constraint is correct, else false.
      */
     private boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
         if (strength + dexterity + intelligence != level){

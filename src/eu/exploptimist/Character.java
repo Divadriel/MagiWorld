@@ -14,6 +14,7 @@ public abstract class Character {
      * @param strength      The strength chosen by the player
      * @param dexterity     The dexterity chosen by the player
      * @param intelligence  The intelligence chosen by the player
+     * @param name          The name "Joueur 1" or "Joueur 2"
      */
     public Character(int level, int strength, int dexterity, int intelligence, String name){
         this.level = level;
