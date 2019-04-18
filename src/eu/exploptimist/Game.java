@@ -21,7 +21,7 @@ public class Game {
      * @param characterClass class input
      * @return               characterClass if input is correct, else -1.
      */
-    private int checkClass(int characterClass){
+    public int checkClass(int characterClass){
         if(characterClass != 1 && characterClass != 2 && characterClass != 3){
             return -1;
         }
@@ -33,7 +33,7 @@ public class Game {
      * @param level level input
      * @return      level if input is correct, else -1.
      */
-    private int checkLevel(int level){
+    public int checkLevel(int level){
         if(level < 1 || level > 100){
             return -1;
         }
@@ -45,7 +45,7 @@ public class Game {
      * @param perk  perk input
      * @return      perk if input is correct, else -1.
      */
-    private int checkPerk(int perk){
+    public int checkPerk(int perk){
         if(perk < 0 || perk > 100){
             return -1;
         }
@@ -60,7 +60,7 @@ public class Game {
      * @param intelligence  intelligence input
      * @return              true if constraint is correct, else false.
      */
-    private boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
+    public boolean checkAllPerks(int level, int strength, int dexterity, int intelligence){
         if (strength + dexterity + intelligence != level){
             System.out.println("La somme des attributs doit être égale au niveau du personnage !");
             return false;
@@ -72,7 +72,7 @@ public class Game {
      * do / while loop to select character class.
      * @return  chosen character class.
      */
-    private int selectClass(){
+    public int selectClass(){
         int characterClass;
         do {
             System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
@@ -85,7 +85,7 @@ public class Game {
      * do / while loop to select level.
      * @return  chosen level.
      */
-    private int selectLevel(){
+    public int selectLevel(){
         int level;
         do {
             System.out.println("Niveau du personnage ?");
@@ -99,7 +99,7 @@ public class Game {
      * @param level level input.
      * @return      ArrayList of chosen perks.
      */
-    private ArrayList<Integer> selectPerks(int level){
+    public ArrayList<Integer> selectPerks(int level){
         int strength, dexterity, intelligence;
         ArrayList<Integer> perks = new ArrayList<>();
         do {
@@ -122,7 +122,7 @@ public class Game {
      * @param playerNb  The player number, used only for launchGame() method.
      * @return          The created character.
      */
-    private Character createCharacter(int playerNb){
+    public Character createCharacter(int playerNb){
         Character player;
         int characterClass, level, strength, dexterity, intelligence;
         System.out.println("Création du personnage du Joueur " + playerNb);
@@ -164,7 +164,7 @@ public class Game {
      * @param player1   player 1
      * @param player2   player 2
      */
-    private void fight(Character player1, Character player2){
+    public void fight(Character player1, Character player2){
         while(player1.getHealth() > 0 || player2.getHealth() > 0){
             // player 1 starts
             play(player1, 1, player2);
@@ -189,7 +189,7 @@ public class Game {
      * @param playerNb  Player's number
      * @param target    The other player.
      */
-    private void play(Character player, int playerNb, Character target){
+    public void play(Character player, int playerNb, Character target){
         System.out.println("Joueur " + playerNb + " (" + player.getHealth() +
                 " Vitalité) veuillez choisir votre action (1 : Attaque Basique, 2 : Attaque Spéciale");
         int action = sc.nextInt();
@@ -200,7 +200,7 @@ public class Game {
      * Ending the game, by displaying which player lost.
      * @param loseNb    Number of losing player.
      */
-    private void endGame(int loseNb) {
+    public void endGame(int loseNb) {
         System.out.println("Joueur " + loseNb + " a perdu !");
     }
 }
