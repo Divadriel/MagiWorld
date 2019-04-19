@@ -21,11 +21,11 @@ public class Game {
      * @param characterClass class input
      * @return               characterClass if input is correct, else -1.
      */
-    public int checkClass(int characterClass){
+    public boolean checkClass(int characterClass){
         if(characterClass != 1 && characterClass != 2 && characterClass != 3){
-            return -1;
+            return false;
         }
-        return characterClass;
+        return true;
     }
 
     /**
@@ -33,11 +33,11 @@ public class Game {
      * @param level level input
      * @return      level if input is correct, else -1.
      */
-    public int checkLevel(int level){
+    public boolean checkLevel(int level){
         if(level < 1 || level > 100){
-            return -1;
+            return false;
         }
-        return level;
+        return true;
     }
 
     /**
@@ -45,11 +45,11 @@ public class Game {
      * @param perk  perk input
      * @return      perk if input is correct, else -1.
      */
-    public int checkPerk(int perk){
+    public boolean checkPerk(int perk){
         if(perk < 0 || perk > 100){
-            return -1;
+            return false;
         }
-        return perk;
+        return true;
     }
 
     /**
@@ -77,7 +77,7 @@ public class Game {
         do {
             System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
             characterClass = sc.nextInt();
-        } while(checkClass(characterClass) == -1);
+        } while(!checkClass(characterClass));
         return characterClass;
     }
 
@@ -90,7 +90,7 @@ public class Game {
         do {
             System.out.println("Niveau du personnage ?");
             level = sc.nextInt();
-        } while(checkLevel(level) == -1);
+        } while(!checkLevel(level));
         return level;
     }
 
@@ -109,7 +109,7 @@ public class Game {
             dexterity = sc.nextInt();
             System.out.println("Intelligence du personnage ?");
             intelligence = sc.nextInt();
-        } while((checkPerk(strength) == -1 || checkPerk(dexterity) == -1 || checkPerk(intelligence) == -1)
+        } while((!checkPerk(strength) || !checkPerk(dexterity) || !checkPerk(intelligence))
                 || !checkAllPerks(level, strength, dexterity, intelligence));
         perks.add(strength);
         perks.add(dexterity);
